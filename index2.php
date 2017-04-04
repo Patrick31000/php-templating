@@ -37,13 +37,13 @@
 
     <div class="col-md-4" id="contact">
         <img id="imgcat" src="{{ photo2 }}"><br><br>
-        <div id="user"><h3>{{userName}}</h3></div><br><br>
+        <div id="user"><h3>{{userName}}</h3></div><br>
         <div id="job"><h3>{{job}}</h3></div><br>
         <div id="contact">
             <h3>Contact Info</h3>
-            <p>{{mail}}</p><br>
-            <p>{{phone}}</p><br>
-            <p>{{adress}}</p><br>
+            <p>{{mail}}</p>
+            <p>{{phone}}</p>
+            <p>{{adress}}</p>
             <p>{{cp}} {{ville}}</p>
         </div>
    

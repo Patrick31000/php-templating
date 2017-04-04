@@ -37,3 +37,7 @@
         height: 45vh;
         width: auto;
     }
+    
+    #contact.p {
+        padding-top: 3px;
+    }
