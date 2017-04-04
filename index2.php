@@ -19,11 +19,12 @@
         <h3>{{ companyPhrase }}</h3>
         <p class="left">At {{companyName }} we create {{productAdjective}}<br>
         {{productName}} made of {{productMaterial}}<br><br>
-        Find out more on {{mail}}</p>
+        Find out more on:
+        <a href='mailto:{{mail}}'>{{mail}}</a></p>
     </div>
     
     <div class="container"></div>
-    <div class="card" style="width: 20rem;">
+    <div class="card">
   <img class="card-img-top" id="img2" src="{{ photo }}" alt="Card image cap">
   <div class="card-block">
     <h4 class="card-title">{{productName}}</h4>
@@ -41,7 +42,7 @@
         <div id="job"><h3>{{job}}</h3></div><br>
         <div id="contact">
             <h3>Contact Info</h3>
-            <p>{{mail}}</p>
+            <a href='mailto:{{mail}}'>{{mail}}</a>
             <p>{{phone}}</p>
             <p>{{adress}}</p>
             <p>{{cp}} {{ville}}</p>

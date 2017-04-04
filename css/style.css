@@ -22,8 +22,8 @@
     }
     
     #img2 {
-        height: 100px;
-        width: 120px;
+        height: 200px;
+        width: 220px;
     }
     
     .card {
@@ -34,8 +34,8 @@
     div.card {
         margin-left: 330px;
         margin-top: 50px;
-        height: 45vh;
-        width: auto;
+        height: 60vh;
+        width: 20vw;
     }
     
     #contact.p {
